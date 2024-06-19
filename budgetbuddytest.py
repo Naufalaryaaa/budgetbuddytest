@@ -10,7 +10,7 @@ if 'transactions' not in st.session_state:
     st.session_state['transactions'] = []
 
 # Title of the application
-st.title("Money Manager 💰")
+st.title("BudgetBuddy 💰")
 
 # Form to add a new transaction
 st.header("Add New Transaction")
